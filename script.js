@@ -38,7 +38,7 @@ $(document).ready(function(){
         strings: ["Developer", "CyberOfficer", "Designer", "Freelancer" , "Hacker" , "Scripter"],
         typeSpeed: 100,
         backSpeed: 60,
-        loop: true
+        loop: false
     });
 
     var typed = new Typed(".typing-2", {
