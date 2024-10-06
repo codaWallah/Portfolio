@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     color: #fff;
     background-image: url('yourimage.jpg'); /* Add your background image */
-    background-size: cover;
+    background-size: 1200px;
     background-position: center;
 }
 
@@ -61,8 +61,29 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
+    background-color: rgba(0, 0, 0, 0.356);
+    position: fixed;
+    color: azure;
     bottom: 0;
     width: 100%;
 }
+
+  
+/* CSS */
+.read-more-content {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .read-more {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+  }
+
+  h2 {
+    font-size: 24px;
+    background-color: grey;
+  }
